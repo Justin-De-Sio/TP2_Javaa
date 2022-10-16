@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf32b302-02ec-4990-a963-a46795e7f0bb" name="Changes" comment="first commit">
+    <list default="true" id="cf32b302-02ec-4990-a963-a46795e7f0bb" name="Changes" comment="version bizarre">
+      <change afterPath="$PROJECT_DIR$/src/Hanoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Liste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -11,6 +12,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +59,7 @@
       <updated>1665911664865</updated>
       <workItem from="1665911666307" duration="28000" />
       <workItem from="1665911718460" duration="1678000" />
-      <workItem from="1665933677105" duration="4995000" />
+      <workItem from="1665933677105" duration="11484000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1665911894541</created>
@@ -60,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665911894541</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version bizarre">
+      <created>1665938800241</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665938800241</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +94,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="version bizarre" />
+    <option name="LAST_COMMIT_MESSAGE" value="version bizarre" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Liste" memberName="liste" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

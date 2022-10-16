@@ -48,8 +48,9 @@ public class Liste {
     }
     public void displayAll(){
         for (Object element : liste) {
-            System.out.println(element);
+            System.out.print(element+ " ");
         }
+         System.out.println();
     }
 
     public boolean contains(int val) {

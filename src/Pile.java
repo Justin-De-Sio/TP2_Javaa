@@ -22,7 +22,7 @@ public class Pile {
         return element;
     }
     void display(){
-        System.out.println("Affichage de la pile " + this.PileName);
+        System.out.print(this.PileName+": ");
         maListe.displayAll();
     }
 
