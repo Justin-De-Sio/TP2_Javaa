@@ -1,3 +1,5 @@
+package TP2.jeu;
+
 public class PileEntiers extends Pile {
 
     public PileEntiers( String PileName) {

@@ -1,3 +1,5 @@
+package TP2.jeu;
+
 public class Pile {
 
     protected Liste maListe;
@@ -21,7 +23,7 @@ public class Pile {
         System.out.println("Dépiler " + element + " dans " + this.PileName);
         return element;
     }
-    void display(){
+    public void  display(){
         System.out.print(this.PileName+": ");
         maListe.displayAll();
     }

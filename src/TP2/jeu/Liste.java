@@ -1,3 +1,5 @@
+package TP2.jeu;
+
 import java.util.ArrayList;
 
 public class Liste {

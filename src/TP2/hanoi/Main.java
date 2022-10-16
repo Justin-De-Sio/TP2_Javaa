@@ -1,4 +1,10 @@
+package TP2.hanoi;
+
 // author : Justin DE SIO, Messilva Mazari
+
+
+import TP2.jeu.PileEntiers;
+
 public class Main {
     public static void main(String[] args) {
         Hanoi h = new Hanoi();

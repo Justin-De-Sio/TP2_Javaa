@@ -1,3 +1,7 @@
+package TP2.hanoi;
+
+import TP2.jeu.PileEntiers;
+
 import java.util.Scanner;
 
 public class Hanoi {
@@ -38,7 +42,7 @@ public class Hanoi {
         return;
     }
 
-    public PileEntiers getPileEntiers(int n){
+    public PileEntiers getPileEntiers(int n) {
         switch (n) {
             case 1:
                 return tour1;
@@ -50,29 +54,26 @@ public class Hanoi {
         return null;
     }
 
-    public int getNombre(){
+    public int getNombre() {
         return nombre;
     }
 
-    public void deplacer(PileEntiers src, PileEntiers dst){
+    public void deplacer(PileEntiers src, PileEntiers dst) {
         Integer i = src.depiler();
         dst.empiler(i);
     }
 
-    public void jeu(int n, PileEntiers tour1, PileEntiers  tour3, PileEntiers  tour2) {
+    public void jeu(int n, PileEntiers tour1, PileEntiers tour3, PileEntiers tour2) {
 
 
-
-
-        if(n == -1){
+        if (n == -1) {
             //System.out.println("Tour 1 vide");
-            return ;
-        }
-        else {
-            this.jeu(n-1, tour1, tour2, tour3);
+            return;
+        } else {
+            this.jeu(n - 1, tour1, tour2, tour3);
 
             deplacer(tour1, tour3);
-            this.jeu(n-1, tour2, tour3, tour1);
+            this.jeu(n - 1, tour2, tour3, tour1);
 
         }
 
