@@ -51,4 +51,8 @@ public class Liste {
             System.out.println(element);
         }
     }
+
+    public boolean contains(int val) {
+        return liste.contains(val);
+    }
 }

@@ -21,7 +21,7 @@ public class Pile {
         System.out.println("Depiler " + element + " dans " + this.PileName);
         return element;
     }
-    void displayAll(){
+    void display(){
         System.out.println("Affichage de la pile " + this.PileName);
         maListe.displayAll();
     }
