@@ -28,10 +28,11 @@ public class Hanoi {
 
     public void remplir() {
         int n = nombre;
-        while (n >= 0) {
+        while (n > 0) {
             tour1.empiler(n);
             n--;
         }
+        nombre--;
         tour1.display();
         System.out.println("");
         return;
