@@ -55,8 +55,7 @@ public class Hanoi {
     }
 
     public void deplacer(PileEntiers src, PileEntiers dst){
-        int n = src.depiler();
-        Integer i = Integer.valueOf(n);
+        Integer i = src.depiler();
         dst.empiler(i);
     }
 
@@ -69,11 +68,8 @@ public class Hanoi {
             //System.out.println("Tour 1 vide");
             return ;
         }
-
         else {
             this.jeu(n-1, tour1, tour2, tour3);
-
-            //System.out.println("Bougez le disque " + n + " de " + tour1 + " à " + tour3);
 
             deplacer(tour1, tour3);
             this.jeu(n-1, tour2, tour3, tour1);

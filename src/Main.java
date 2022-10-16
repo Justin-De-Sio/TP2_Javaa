@@ -15,8 +15,9 @@ public class Main {
         t2.display();
         t3.display();
         System.out.println("");
-
         h.jeu(n,t1, t3, t2);
+
+        System.out.println("");
         System.out.println("Après la fin du jeu");
         t1.display();
         t2.display();

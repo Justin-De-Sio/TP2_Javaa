@@ -18,7 +18,7 @@ public class Pile {
     public Object depiler() {
         maListe.dernier();
         Object element = maListe.supprimer();
-        System.out.println("Depiler " + element + " dans " + this.PileName);
+        System.out.println("Dépiler " + element + " dans " + this.PileName);
         return element;
     }
     void display(){
